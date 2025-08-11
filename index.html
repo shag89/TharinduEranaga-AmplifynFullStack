@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Dijkstra's Algorithm Calculator</title>
+     <link rel="stylesheet" href="../css/styles.css">
+     <script src="js/index.js" defer></script>
+</head>
+<body>
+      <!-- Main Header Section -->
+  <header class="hero">
+    <h1>Dijkstra’s Algorithm Calculator</h1>
+    <p>Discovering Optimal Routes Through Nodes Using Dijkstra’s Method</p>
+  </header>
+     <!-- Main Card Element-->
+      <main class="container">
+          <div class="card">
+            <div class="left-item">
+                <h2>Select Path</h2>
+                <label for="nodefrom">From</label>
+                <select id="nodefrom">
+                  <option>Select</option>
+                  <option>A</option>
+                  <option>B</option>
+                  <option>C</option>
+                  <option>D</option>
+               </select>
+
+               <label for="nodeto">To</label>
+                <select id="nodeto">
+                  <option>Select</option>
+                  <option>A</option>
+                  <option>B</option>
+                  <option>C</option>
+                  <option>D</option>
+                  <option>E</option>
+                  <option>F</option>
+               </select>
+
+               <div class="buttons-section">
+                  <button class="btn clear" id="btnClear"> Clear</button>
+                  <button class="btn compute" id="btnCalculate">Calculate <i class="fa-solid fa-calculator"></i></button>
+               </div>
+
+            </div>
+         
+          <div class="right-item-main">
+            <div class="right-item" id="item-right">
+               <img src="images/image-placeholder.png" alt="Person illustration">
+            </div>
+              <div class="result-section" id="section-result" style="display: none;">
+                <h2>Result</h2>
+                  <div class="result-box">
+                       <p><span id="result-points"></span></p>
+                       <p>Total Distance: 10</p>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </main>
+</body>
+</html>

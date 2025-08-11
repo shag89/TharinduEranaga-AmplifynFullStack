@@ -1,0 +1,152 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+   background-color: #e6f1fb;
+   margin: 0;
+
+}
+.hero {
+  background-color: #1359a6;
+  color: white;
+  text-align: center;
+  padding: 5rem 1rem;
+  min-height: 200px;
+  /*padding: 100px 20px; /*40 padding top and bottom / 20 padding left and right */
+}
+
+.hero h1{
+  margin: 0;
+  font-size: 2rem;
+}
+
+.hero p {
+  font-size: 1rem;
+  margin-top: 10px;
+  opacity: 0.9;  /*make fadeout the text*/
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: -70px;
+
+}
+
+.card {
+  background-color: white;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+  justify-content: space-between;
+  width: 700px;
+  /*padding: 30px;*/
+  overflow: hidden; /*Discard the inside content of it's bigger than the outer card*/
+  margin: -60px auto 0;
+}
+
+.left-item {
+  flex: 1;
+  padding: 1rem 2rem;
+}
+
+.left-item h2{
+  color: #1154A3 ;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 15px;
+  display: block;
+}
+
+select {
+  margin-top: 5px;
+  padding: 0.7rem;
+  width: 100%;
+  border : 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.buttons-section {
+  margin-top: 20px;
+  display: flex;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  font-weight:400;
+  margin-right: 10px;
+  padding: 0.8rem 1.2rem;
+  border-radius: 6px;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.compute {
+  background-color: #DA753C;
+  color: white;
+}
+.clear {
+  background-color: white;
+  color: #DA753C;
+  border: 1px solid #DA753C;
+}
+.right-item-main {
+flex: 1;
+/*background-color: #F2F3F6;*/
+}
+.right-item {
+flex: 1;
+display: flex;
+justify-content: center;
+/*align-items: center;*/
+margin-top: 30px;
+}
+
+.right-item img {
+  max-width: 350px;
+  max-height: 300px;
+}
+
+.right-item h3{
+  color: #1154A3 ;
+}
+
+.result-card {
+padding: 30px 10px;
+}
+
+.result-section {
+    flex: 1;
+    background-color: #F2F3F6;
+    padding: 3rem 2rem;
+    flex-direction: column;
+   /* min-height: 200px; */
+}
+
+.result-section h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: #0e56a4;
+}
+
+.result-box {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+    min-height: 220px; 
+}
+
+.result-box p {
+    margin: 0.5rem 0;
+}
+
+#btnCalculate  i {
+  margin-left: 8px; /* space between icon and text */
+}
